@@ -1,0 +1,19 @@
+과제는 모두 git hub에 올리도록 하는데 방법은 아래와 같다. 
+
+1. vs code에서 open folder > Assignment 폴더를 연다
+2. 위 메뉴 Terminal > new terminal
+3. 아래 터미널 창에서  아래와 같이 한다
+4. type: git init (엔터)
+5. type: add. (엔터)
+6. type: -m "any comment you wanna put here" (엔터)
+7. 아래 내용 복사해서 붙여넣고 실행
+git remote add origin https://github.com/Eugene2077/WEBD6201.git
+git branch -M main
+git push -u origin main
+
+8. 이제 git hub에서 업로드한 내용 들어간거 볼수 있슴
+9. git에 WEBD6201폴더 안에있는 해당과제폴더로 가서 오른쪽 클릭, 바로가기링크 복사해서 DC에 올리면 됨
+
+* 과제는 dc에 올리던 git에 올리건 상관없다고 함
+* git WEBD6201폴더는 이미 선생을 collabolate로 초대한 상태이므로 이건 신경안써도 됨. 
+* git webd6201폴더가 public이라서 좀 의문이긴 한데, 선생이 이렇게 하라고 해서 한거임, 신경안써도 될듯
