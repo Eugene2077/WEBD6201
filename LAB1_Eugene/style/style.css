@@ -1,0 +1,27 @@
+
+body {
+    align-items: center;
+    background-color: black; 
+    color:#ccc;
+}
+
+.font-nav-top {
+    color: wheat;
+}
+
+.img-welcome {
+    width:100hr;
+    height: 450px;
+    background: url('../images/welcome.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.footer {
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.socialIcons a {
+    margin: 1em;
+    margin-left: 0em;
+}

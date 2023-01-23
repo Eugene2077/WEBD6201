@@ -7,25 +7,47 @@
     <title>Home</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link rel="stylesheet" href="./style/style.css"/>
+    
 </head>
 <body>
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./products.html">Products</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./services.html">Service</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        
-    </ul>
+    <div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link font-nav-top active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-nav-top" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-nav-top" href="./services.html">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-nav-top" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-nav-top" href="./contact.html">Contact</a>
+            </li>
+        </ul>    
+    </div>
+    <!-- image from the css -->
+    <div class="img-welcome"></div>
+    <!-- welcome message from the script -->
+    <div id="welcome"></div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <h4>Follow Us</h4>
+        <div class="socialIcons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+
+    <script src="./scripts/app.js"></script>
 </body>
 </html>
