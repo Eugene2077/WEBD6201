@@ -10,8 +10,8 @@ body {
 }
 
 .img-welcome {
-    width:100hr;
-    height: 450px;
+
+    height: 400px;
     background: url('../images/welcome.jpg') no-repeat center center/cover; 
     margin-bottom: 1em;
 }
@@ -24,4 +24,9 @@ body {
 .socialIcons a {
     margin: 1em;
     margin-left: 0em;
+}
+
+.form-contact {
+    width: 26em;
+    padding: 3em;
 }

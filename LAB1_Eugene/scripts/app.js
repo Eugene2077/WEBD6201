@@ -1,9 +1,12 @@
+
+// contact page ------------------------------------------------
+// function for submit button
 console.log('JS script wired up');
 let submitButton = document.getElementById('submit-button');
 if(submitButton) {
     submitButton.addEventListener('click', timeRedirect, false)
 }
-
+// redirect to main when submit after 3 sec 
 function timeRedirect(e) {
     let contactEmail = document.getElementById('exampleInputEmail1').value;
     let contactPassword = document.getElementById('exampleInputPassword1').value;
@@ -17,7 +20,6 @@ function timeRedirect(e) {
 
 
 // index page -------------------------------------------------
-
 // welcome message and the heading part ---
 let welcomeHeding = "Welcome to our company! ";
 let welcomeText = "We are thrilled to offer you a wide selection of high-quality products and services that are sure to meet your needs and exceed your expectations. Our team is dedicated to providing you with the best possible shopping experience and we're always happy to help you find exactly what you're looking for. We are constantly updating our inventory to bring you the latest and greatest products at competitive prices. Thank you for choosing us and we look forward to serving you!";
