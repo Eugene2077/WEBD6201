@@ -42,3 +42,6 @@ welcomeDiv.appendChild(newP);
 newH3.setAttribute("style", "color:#cc99ff; margin-bottom:1em;");
 // change the margine of the welcome contents
 welcomeDiv.style.margin = '1em';
+
+
+

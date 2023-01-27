@@ -1,3 +1,9 @@
+// Course : WEBD6201
+// STUDENT NUMBER : 100844220
+// NAME: Eugene (Hongju) Shin
+// Date: 26 Jan 2023 
+
+
 console.log("formValidation.js loaded");
 
 /**
