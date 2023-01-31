@@ -1,7 +1,7 @@
-// Course : WEBD6201
-// STUDENT NUMBER : 100844220
-// NAME: Eugene (Hongju) Shin
-// Date: 20 Jan 2023 
+/* Course : WEBD6201
+STUDENT NUMBER : 100844220
+NAME: Eugene (Hongju) Shin
+Date: 20 Jan 2023  */
 
 // document.getElementsByTagName() : return a list of the elements specified('TagName' in here)
 // ADDING ITEMS TO START AND END OF LIST, it returns a list of tag name 'ul'

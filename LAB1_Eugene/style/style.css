@@ -1,3 +1,8 @@
+/* Course : WEBD6201
+STUDENT NUMBER : 100844220
+NAME: Eugene (Hongju) Shin
+Date: 03 Feb 2023  */
+
 
 body {
     align-items: center;
@@ -9,10 +14,32 @@ body {
     color: wheat;
 }
 
-.img-welcome {
+.img-hiking {
 
     height: 400px;
-    background: url('../images/welcome.jpg') no-repeat center center/cover; 
+    background: url('../images/hiking.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.img-skiing {
+
+    height: 400px;
+    background: url('../images/ski.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.img-tele {
+
+    height: 400px;
+    background: url('../images/tele.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+
+.img-server {
+
+    height: 400px;
+    background: url('../images/index_img.jpg') no-repeat center center/cover; 
     margin-bottom: 1em;
 }
 
@@ -29,4 +56,18 @@ body {
 .form-contact {
     width: 26em;
     padding: 3em;
+}
+
+.productsDivClasses {
+    color: skyblue;
+    
+}
+
+.footer-style {
+    color: orange;
+    margin-top: 3em;
+    padding: 1.5em;
+    background-color: #222;
+    border: 3px;
+    border-color: #999;
 }
