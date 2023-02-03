@@ -104,7 +104,6 @@ welcomeDiv.appendChild(newP3);
 // change the styles of the paraHeading3(headng for the welcome)
 paraHeading3.setAttribute("style", "color:#cc9955; margin-bottom:1em;");
 
-
 // nav bar insert (Human resources) ---------------------------
 // get the nav bar element (ul)
 let humanResourceNav = document.getElementsByTagName('ul')[0];

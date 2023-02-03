@@ -3,6 +3,7 @@ STUDENT NUMBER : 100844220
 NAME: Eugene (Hongju) Shin
 Date: 03 Feb 2023  */
 
+
 // Change nav bar 'Product' to 'Interest' ----------------------------
 // get the nav bar element (ul)
 let navItem = document.getElementsByTagName('ul')[0];
@@ -12,7 +13,6 @@ let productNav = navItem.getElementsByTagName('li')[1];
 let productLink = productNav.getElementsByTagName('a')[0];
 productLink.innerHTML = 'Interest';
 productLink.href = './products.html';
-
 
 // nav bar insert (Human resources) ---------------------------
 // get the nav bar element (ul)
