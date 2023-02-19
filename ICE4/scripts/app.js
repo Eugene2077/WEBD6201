@@ -8,7 +8,7 @@
 console.log('app.js loaded')
 // TO DO: load the user class script with alias
 import * as userClass from './user.js'
-// let newUser = userClass.User("a","b","c","d","e");
+// let newUser = new userClass.User("a","b","c","d","e");
 // console.log(newUser.displayUser());
 
 
@@ -29,6 +29,8 @@ $(function () {
 
     //replace the nav-holder
     $("#nav-holder").replaceWith(navBar);
+
+    
 });
 
 /**
