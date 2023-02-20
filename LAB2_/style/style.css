@@ -1,0 +1,94 @@
+/* Course : WEBD6201
+STUDENT NUMBER : 100844220
+NAME: Eugene (Hongju) Shin
+Date: 20 Feb 2023  */
+
+
+body {
+    align-items: center;
+    background-color: black; 
+    color:#ccc;
+}
+
+.font-nav-top {
+    color: wheat;
+}
+
+.img-hiking {
+
+    height: 400px;
+    background: url('../images/hiking.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.img-skiing {
+
+    height: 400px;
+    background: url('../images/ski.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.img-tele {
+
+    height: 400px;
+    background: url('../images/tele.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+
+.img-server {
+
+    height: 400px;
+    background: url('../images/index_img.jpg') no-repeat center center/cover; 
+    margin-bottom: 1em;
+}
+
+.footer {
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.socialIcons a {
+    margin: 1em;
+    margin-left: 0em;
+}
+
+.form-contact {
+    width: 26em;
+    padding: 3em;
+}
+
+.form-register {
+    width: 32em;
+    padding: 3em;
+}
+
+.loginButton {
+    margin-top: 1.2em;
+}
+
+.login-heading {
+    color:#cc99ff;
+}
+
+.link-register {
+    display: inline;
+    margin-left: 3em;
+}
+
+.productsDivClasses {
+    color: skyblue; 
+}
+
+.footer-style {
+    color: orange;
+    margin-top: 3em;
+    padding: 1.5em;
+    background-color: #222;
+    border: 3px;
+    border-color: #999;
+}
+
+.errorMessage {
+    color: rgb(192, 83, 83);
+}

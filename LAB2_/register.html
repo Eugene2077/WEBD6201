@@ -1,0 +1,130 @@
+<!-- 
+Course : WEBD6201
+STUDENT NUMBER : 100844220
+NAME: Eugene (Hongju) Shin
+Date: 20 Feb 2023 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- to use jQuerry, use this source -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <!-- jQuerry ---------------------------- -->
+
+    <!-- using google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap"
+    rel="stylesheet"
+/>
+    <title>Register</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link rel="stylesheet" href="./style/style.css"/>
+    
+</head>
+<body>
+  <div id="nav-holder"></div>
+
+  <!-- registration form from here -->
+  <form id="registration-form" class="form-register">
+    <h1 class="login-heading">Register</h1>
+    <p>Create your own account. It's free and only takes a minute</p>
+
+    <div class="form-group" id="first-group">
+      <label for="firstname">First name</label>
+      <input
+          type="text"
+          class="form-control"
+          id="inputFirst"
+          aria-describedby="firstname"
+          placeholder="First name"
+      />
+      <div class="errorMessage"></div>
+    </div>
+
+    <div class="form-group" id="last-group">
+      <label for="lastname">Last name</label>
+      <input
+          type="text"
+          class="form-control"
+          id="inputLast"
+          aria-describedby="lastname"
+          placeholder="Last name"
+      />
+      <div class="errorMessage"></div>
+    </div>
+
+		<!-- <div class="form-group" id="username-group">
+      <label for="inputUsername">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="inputUsername"
+        placeholder="Username"
+        required
+      />
+      <div class="errorMessage"></div>
+		</div> -->
+
+    <div class="form-group" id="email-group">
+      <label for="inputEmail">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail"
+        aria-describedby="emailHelp"
+        placeholder="Email"
+      />
+      <div class="errorMessage"></div>
+    </div>
+    
+    <div class="form-group" id="pass1-group">
+      <label for="inputPassword">Password</label>
+      <input
+          type="password"
+          class="form-control"
+          id="inputPassword"
+          placeholder="Password"
+      />
+    </div>
+
+    <div class="form-group" id="pass2-group">
+      <label for="confirmPassword1">Confirm Password</label>
+      <input
+          type="password"
+          class="form-control"
+          id="inputPassword2"
+          placeholder="Confirm Password"
+      />
+      <div class="errorMessage"></div>
+    </div>
+
+    <div class="loginButton">
+        <button id="btnRegSubmit" type="submit" class="btn btn-primary">
+        Register
+        </button>
+
+        <button id="btnRegReset" type="reset" class="btn btn-primary" value="Reset">Reset</button>
+    </div>
+</form>
+  <div id="link-login"></div>
+
+    <div id="footer"></div>
+
+    <script type="module" src="./scripts/app.js"></script>
+		<script type="module" src="./scripts/user.js"></script>
+		<script type="module" src="./scripts/form.js"></script>
+		<script type="module" src="./scripts/register.js"></script>
+
+</body>
+</html>
