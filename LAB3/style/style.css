@@ -92,3 +92,33 @@ body {
 .errorMessage {
     color: rgb(192, 83, 83);
 }
+
+#pixabay-logo {
+    width: 100px;
+}
+
+.blog-column {
+    border-top: 1px solid #787474;
+}
+
+.card-body {
+    border-bottom: 1px dotted #676452;
+    margin-top: 1em;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-pic {
+    max-width: 100%;
+    margin: 1em;
+    height: auto;
+    border-radius: 3%;
+    box-shadow: 2px 2px 20px rgba(199, 194, 163, 0.7);
+}
+
+.card-title {
+    color:rgb(57, 156, 143) ;
+}
+

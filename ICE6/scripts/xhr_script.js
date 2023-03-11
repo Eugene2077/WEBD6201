@@ -10,15 +10,20 @@ $(btnXhr).click(() => {
         let xhr = new XMLHttpRequest();
         // confiture with open()
         xhr.open("GET", url_xhr);
-
-        console.log(xhr);
+        
 
         // set the necessary headers for icanhazdadjoke.com
+        // 내용이 json 인 것만 가져올것
         xhr.setRequestHeader('Accept', 'application/json');
-        // create the callback to handle the onreadystatechange
+      
         xhr.onreadystatechange = () => {
-                // only execute when done and status is 200
+                // onreadystatechange 의 상태가 변할때마다 실행
+                console.log(`The responseText: ${xhr.responseText}`);
+                
+                // reasyState 가 4, HTML status 가 200 일 때만 실행
                 if(xhr.readyState === 4 && xhr.status === 200) {
+                        // let see what we got
+                        console.log(`The responseText: ${xhr.responseText}`);
                         // get the responseText
                         let joke = xhr.responseText;
                         // console log
@@ -35,6 +40,8 @@ $(btnXhr).click(() => {
                 
         // send the request
         xhr.send();
+        // console.log("after send: " + xhr);
+        //console.log(`The responseText: ${xhr.responseText}`);
 
 })
 
