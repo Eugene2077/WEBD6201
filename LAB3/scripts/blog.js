@@ -19,25 +19,25 @@ const url = PIXABAY_URL.replace('<KEY>',PIXABAY_KEY);
 const makePosts = () => {
     for (let j = 0; j< 20; j++) {
         let id_no = j;
-
+        // card element
         let card = $(`<div class="card blog"></div>`)
             .attr('id', 'card-'+id_no)
             .appendTo($('.blog-column'));
-
+        // blog body in the card
         let body = $('<div class="card-body blog"></div>')
             .attr('id', 'card-body-'+id_no)
             .appendTo(card);
-
+        // the titles for the blogs
         let title = $('<h5 class="card-title blog"></h5>')
         .attr('id','card-title-'+id_no)
         .appendTo(body);
-
+        // pictures are from pixabay
         let pic = $('<img>')
         .attr('id','img-'+id_no)
         .addClass('card-pic')
-        //.css('max-height', '100vw')
+        //style to css file
         .appendTo(body);
-
+        // blog text 
         let text = $('<p class="card-text blog"></p>')
         .attr('id','card-text-'+id_no)
         .appendTo(body);   
@@ -70,11 +70,12 @@ const getPictures = () => {
     // replace the <KEY>part in the PIXABAY_URL with this
     const url = PIXABAY_URL.replace('<KEY>',PIXABAY_KEY);
 
-    //pics = []
+    //using fetch to fetch pictures from pixabay
     fetch(url)
         .then((res) => {
             return res.json();
         } )
+        // data processing 
         .then((data) => {
             console.log(data);
             for (let i = 0; i < 20; i++) {
