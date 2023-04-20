@@ -1,0 +1,38 @@
+body {
+    /* all the contents to center of the screen */
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add red h1 headings */
+h1 {
+    font-size: 24px;
+    color: #f00;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* the labels align to center but the input boxes are alined to right */
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+
